@@ -8,4 +8,5 @@ C++ is a high-level programming language developed at Bell Labs, originally deve
   a) Printing "Hello World !" is a very basic program to gain idea of key concept in C++ such as '#include <iostream>', 'using namespace std', 'cout<<', etc. <br>
   b) A calculator program perform basic arithmetic operations such as addition, subtraction, multiplication and division. <br>
 
-![exp1a]()
+![exp1a](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20220921.png)
+![exp1b](
