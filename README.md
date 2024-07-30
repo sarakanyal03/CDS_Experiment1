@@ -9,7 +9,7 @@ C++ is a high-level programming language developed at Bell Labs, originally deve
   b) A calculator program perform basic arithmetic operations such as addition, subtraction, multiplication and division. <br>
 
 OUTPUT: <br>
-
+1a) <br>
 ![exp1a](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20220921.png)
 ![exp1b](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20222651.png)
 
