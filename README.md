@@ -1,7 +1,8 @@
 # Experiment1 <br>
 
-AIM : a) Write a program that prints Hello World. <br>
-      b) Write a calculator program. <br>
+AIM :
+a) Write a program that prints Hello World. <br>
+b) Write a calculator program. <br>
 
 THEORY: <br>
 C++ is a high-level programming language developed at Bell Labs, originally developed in 1979. It is extension of C programming language with object-oriented capabilities. It provides dynamic memory allocation using operators. C++ is known for its performance ad it gives the programer a high degree of control over memory and system resources. <br>
