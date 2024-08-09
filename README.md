@@ -51,14 +51,10 @@ To compile and run C++ code, you need a C++ compiler:
 1. Write the following code in your new file:
 
    ```cpp
-   //sai sankar jena
-   //23070123112
-   // hello.cpp
-   #include <iostream>
-
+   #include<iostream>
    int main() {
-       std::cout << "Hello, World!" << std::endl;
-       return 0;
+    std::cout<<"HELLO WORLD";
+    return 0;
    }
    ```
 
@@ -91,53 +87,27 @@ To compile and run C++ code, you need a C++ compiler:
 1. Open a new file in VS Code (`File` > `New File`).
 2. Write the following code for a basic calculator:
 
-   ```cpp
-   //sai sankar jena
-   // calculator.cpp
-   #include <iostream>
-
-   int main() {
-       int choice;
-       double num1, num2;
-
-       std::cout << "Select operation:\n";
-       std::cout << "1. Add\n";
-       std::cout << "2. Subtract\n";
-       std::cout << "3. Multiply\n";
-       std::cout << "4. Divide\n";
-
-       std::cout << "Enter choice (1/2/3/4): ";
-       std::cin >> choice;
-
-       std::cout << "Enter first number: ";
-       std::cin >> num1;
-       std::cout << "Enter second number: ";
-       std::cin >> num2;
-
-       switch (choice) {
-           case 1:
-               std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
-               break;
-           case 2:
-               std::cout << num1 << " - " << num2 << " = " << num1 - num2 << std::endl;
-               break;
-           case 3:
-               std::cout << num1 << " * " << num2 << " = " << num1 * num2 << std::endl;
-               break;
-           case 4:
-               if (num2 != 0)
-                   std::cout << num1 << " / " << num2 << " = " << num1 / num2 << std::endl;
-               else
-                   std::cout << "Error! Division by zero." << std::endl;
-               break;
-           default:
-               std::cout << "Invalid input" << std::endl;
-               break;
-       }
-
-       return 0;
-   }
    ```
+    #include <iostream>
+   int main() {
+    int num1, num2, sum;
+
+    // Ask the user to enter two numbers
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    // Calculate the sum of the two numbers
+    sum = num1 + num2;
+
+    // Print the sum
+    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << std::endl;
+
+    return 0;
+   }
+```
+
 
 3. Save the file as `calculator.cpp`.
 
@@ -162,51 +132,10 @@ To compile and run C++ code, you need a C++ compiler:
 5. Follow the prompts to perform calculations.
 ## OUTPUTS:
 ### CODE 1:
-![Screenshot 2024-08-02 121830](https://github.com/user-attachments/assets/d546346a-da51-4fa5-9e43-0d842bf5c6f6)
+![OUTPUT1](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20220921.png)
 ### CODE 2:
-![Screenshot 2024-08-02 121908](https://github.com/user-attachments/assets/28d5b085-9fe9-4959-840e-6d4e2e64f21c)
-THEORY: <br>
-C++ is a high-level programming language developed at Bell Labs, originally developed in 1979. It is extension of C programming language with object-oriented capabilities. It provides dynamic memory allocation using operators. C++ is known for its performance ad it gives the programer a high degree of control over memory and system resources. <br>
-  a) Printing "Hello World !" is a very basic program to gain idea of key concept in C++ such as '#include <iostream>', 'using namespace std', 'cout<<', etc. <br>
-  b) A calculator program perform basic arithmetic operations such as addition, subtraction, multiplication and division. <br>
+![OUTPUT2](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20222651.png)
 
-CODE : <BR>
-CODE A: <BR>
-```
-#include<iostream>
-int main() {
-    std::cout<<"HELLO WORLD";
-    return 0;
-}
-```
-CODE B: <BR>
-```
-#include <iostream>
-
-int main() {
-    int num1, num2, sum;
-
-    // Ask the user to enter two numbers
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
-
-    // Calculate the sum of the two numbers
-    sum = num1 + num2;
-
-    // Print the sum
-    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << std::endl;
-
-    return 0;
-}
-```
-OUTPUT: <br>
-1a) : <br>
-![exp1a](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20220921.png)
-1b) : <br>
-![exp1b](https://github.com/sarakanyal03/CDS_Experiment1/blob/main/Screenshot%202024-07-30%20222651.png)
-
-CONCLUSION: <br>
+## CONCLUSION
 a) "Hello World!" program in C++ serves as an introductory example, demonstrating the basic structure of a C++ program. <br>
 b)The calculator program in C++ illustrates fundamental programming concepts such as user input, control structures and basic arithmetic operations. It provides a practical example of how to build a simple yet functional application, emphasizing the importance of handling different user inputs and basic error checking. <br>
